@@ -40,7 +40,3 @@ export const Sponsor: FC<SponsorProps> = ({ name, imagePath, sponsorLink }) => {
     </Card>
   );
 };
-
-{
-  /* <div className="max-w-[900px] gap-2 grid grid-cols-12 grid-rows-2 px-8"> */
-}

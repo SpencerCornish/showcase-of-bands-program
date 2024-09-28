@@ -1,14 +1,9 @@
-"use client"
+"use client";
 
-import { Link } from "@nextui-org/link";
-import { Snippet } from "@nextui-org/snippet";
-import { Code } from "@nextui-org/code";
-import { button as buttonStyles } from "@nextui-org/theme";
+import { Button } from "@nextui-org/button";
 
-import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { Sponsor } from "@/components/sponsor";
-import { Button, ButtonGroup } from "@nextui-org/button";
 import { AgendaTable } from "@/components/agendatable";
 
 const scrolltoHash = function (element_id: string) {
@@ -37,40 +32,44 @@ export default function Home() {
       <br />
 
       <div className="flex gap-4 items-center">
-        <Button color="primary" onClick={() => scrolltoHash("sponsors")}>Sponsors</Button>
-        <Button color="primary" onClick={() => scrolltoHash("programAgenda")}>Schedule of Events</Button>
+        <Button color="primary" onClick={() => scrolltoHash("sponsors")}>
+          Sponsors
+        </Button>
+        <Button color="primary" onClick={() => scrolltoHash("programAgenda")}>
+          Schedule of Events
+        </Button>
       </div>
 
-      <div id="sponsors" className="mt-8">
+      <div className="mt-8" id="sponsors">
         <span className={subtitle()}>Special thanks to our Sponsors:</span>
+        <Sponsor
+          imagePath="/sponsors/doortech.webp"
+          name="Door Tech"
+          sponsorLink="https://www.doortechmt.com/"
+        />
         <Sponsor
           imagePath="/sponsors/20Twenty-logo.svg"
           name="20Twenty Eyecare"
           sponsorLink="https://20twentymt.com/"
         />
         <Sponsor
-          imagePath="/sponsors/rosas-logo.jpg"
+          imagePath="/sponsors/rosas.webp"
           name="Rosa's Pizza"
           sponsorLink="https://www.rosaspizza.com/"
         />
         <Sponsor
-          imagePath="/sponsors/doortech.PNG"
-          name="Door Tech"
-          sponsorLink="https://www.doortechmt.com/"
-        />
-        <Sponsor
-          imagePath="/sponsors/eclipsel.jpg"
+          imagePath="/sponsors/eclipsel.webp"
           name="Eclipse Landscaping"
           sponsorLink="https://eclipsebozeman.com/"
         />
         <Sponsor
-          imagePath="/sponsors/TnC.png"
+          imagePath="/sponsors/TnC.webp"
           name="Town & Country Foods"
           sponsorLink="https://www.tncfoods.com/"
         />
       </div>
 
-      <div id="programAgenda" className="mt-8">
+      <div className="mt-8" id="programAgenda">
         <span className={title()}>Agenda</span>
         <AgendaTable />
       </div>

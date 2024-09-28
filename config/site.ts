@@ -5,67 +5,88 @@ export const siteConfig = {
   description: "2024 MSU Showcase of Bands Virtual Program",
   navItems: [],
   navMenuItems: [],
-  // navItems: [
-  //   {
-  //     label: "Home",
-  //     href: "/",
-  //   },
-  //   {
-  //     label: "Docs",
-  //     href: "/docs",
-  //   },
-  //   {
-  //     label: "Pricing",
-  //     href: "/pricing",
-  //   },
-  //   {
-  //     label: "Blog",
-  //     href: "/blog",
-  //   },
-  //   {
-  //     label: "About",
-  //     href: "/about",
-  //   },
-  // ],
-  // navMenuItems: [
-  //   {
-  //     label: "Profile",
-  //     href: "/profile",
-  //   },
-  //   {
-  //     label: "Dashboard",
-  //     href: "/dashboard",
-  //   },
-  //   {
-  //     label: "Projects",
-  //     href: "/projects",
-  //   },
-  //   {
-  //     label: "Team",
-  //     href: "/team",
-  //   },
-  //   {
-  //     label: "Calendar",
-  //     href: "/calendar",
-  //   },
-  //   {
-  //     label: "Settings",
-  //     href: "/settings",
-  //   },
-  //   {
-  //     label: "Help & Feedback",
-  //     href: "/help-feedback",
-  //   },
-  //   {
-  //     label: "Logout",
-  //     href: "/logout",
-  //   },
-  // ],
-  links: {
-    github: "https://github.com/nextui-org/nextui",
-    twitter: "https://twitter.com/getnextui",
-    docs: "https://nextui.org",
-    discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev",
-  },
+  bands: [
+    {
+      name: "Performed by MSU Bobcat Brass",
+      schoolName: "",
+      showName: "National Anthem",
+      drumMajors: [],
+      director: "",
+    },
+    {
+      name: "Herder Marching Band",
+      schoolName: "Sweet Grass High School",
+      showName: "First Edition",
+      drumMajors: ["Abbi McManamen"],
+      director: "Tracy Zuhoski",
+    },
+    {
+      name: "Blue Pony Marching Band",
+      schoolName: "Havre High School",
+      drumMajors: ["Jonah Nixdorf"],
+      director: "Cullen Hinkle",
+      showName: "Wrath of Tiki",
+    },
+    {
+      name: "Vigilantes Marching Band",
+      schoolName: "East Helena High School",
+      drumMajors: ["Sally “Maximillium” Listerud"],
+      director: "Mr. Cole Bass",
+      showName: "SHOUT!",
+    },
+    {
+      name: "Panther Marching Band",
+      schoolName: "Belgrade High School",
+      drumMajors: ["Ajax Ganje", "Kasey Clemons"],
+      director: "Mr. Drake Pannell",
+      showName: "Pirates of the Caribbean",
+    },
+    {
+      name: "Screamin' Eagles Marching Band",
+      schoolName: "Fergus High School",
+      drumMajors: ["Maggie Fulbright"],
+      director: "Chase Auger",
+      showName: "Cartoons!",
+    },
+    {
+      name: "Raptor Marching Band",
+      schoolName: "Gallatin High School",
+      drumMajors: ["William Carson", "Ren Fritz"],
+      director: "Jeffrey Ruffcorn",
+      showName: "The Witching Hour",
+    },
+    {
+      name: "Flathead Braves Marching Band",
+      schoolName: "Flathead High School",
+      drumMajors: ["Tessa Wilsom", "Dalton Howser"],
+      director: "Mr. David Johnke",
+      showName: "Millenium Rock",
+    },
+    {
+      name: "Hawks Marching band",
+      schoolName: "Bozeman High School",
+      drumMajors: ["Emerson Smith", "Platy Rich"],
+      director: "Mr. Kelly Berdahl",
+      showName: "I: The Dark Skies, II: Cyclonic Destruction, III: Falling Snow",
+    },
+    {
+      name: "Spirit of the West Marching Band",
+      schoolName: "Montana State University",
+      drumMajors: ["Dani Espiritu", "Grace Roemig"],
+      director: "Dr. Nathan Stark",
+      showName: "Princess and the Frog",
+    },
+    {
+      showName: "Awards",
+      schoolName: "Montana State University",
+      drumMajors: [""],
+      director: "",
+    },
+    {
+      showName: "Drumline Battle",
+      schoolName: "Montana State University",
+      drumMajors: [""],
+      director: "",
+    },
+  ],
 };

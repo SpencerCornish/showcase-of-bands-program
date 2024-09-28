@@ -8,6 +8,7 @@ import { Providers } from "./providers";
 import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import { Navbar } from "@/components/navbar";
+import { HeartFilledIcon } from "@/components/icons";
 
 export const metadata: Metadata = {
   title: {
@@ -48,9 +49,9 @@ export default function RootLayout({
               {children}
             </main>
             <footer className="w-full flex items-center justify-center py-3">
-              <span className="text-default-600">
-                Made with ❤️ in Bozeman, MT
-              </span>
+              <span className="text-default-600">Made with </span>
+              <HeartFilledIcon />
+              <span className="text-default-600">in Bozeman, MT</span>
             </footer>
           </div>
         </Providers>
