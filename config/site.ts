@@ -79,13 +79,13 @@ export const siteConfig = {
     {
       showName: "Awards",
       schoolName: "Montana State University",
-      drumMajors: [""],
+      drumMajors: [],
       director: "",
     },
     {
       showName: "Drumline Battle",
       schoolName: "Montana State University",
-      drumMajors: [""],
+      drumMajors: [],
       director: "",
     },
   ],
