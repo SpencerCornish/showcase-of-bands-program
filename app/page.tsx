@@ -32,10 +32,10 @@ export default function Home() {
       <br />
 
       <div className="flex gap-4 items-center">
-        <Button color="primary" onClick={() => scrolltoHash("sponsors")}>
+        <Button size="lg" variant="flat" color="warning" onClick={() => scrolltoHash("sponsors")}>
           Sponsors
         </Button>
-        <Button color="primary" onClick={() => scrolltoHash("programAgenda")}>
+        <Button size="lg" variant="flat" color="warning" onClick={() => scrolltoHash("programAgenda")}>
           Schedule of Events
         </Button>
       </div>
@@ -69,7 +69,7 @@ export default function Home() {
         />
       </div>
 
-      <div className="mt-8" id="programAgenda">
+      <div className="pt-8" id="programAgenda">
         <span className={title()}>Agenda</span>
         <AgendaTable />
       </div>

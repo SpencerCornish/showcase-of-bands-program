@@ -49,9 +49,9 @@ export default function RootLayout({
               {children}
             </main>
             <footer className="w-full flex items-center justify-center py-3">
-              <span className="text-default-600">Made with </span>
+              <span className="text-default-300">Made with </span>
               <HeartFilledIcon />
-              <span className="text-default-600">in Bozeman, MT</span>
+              <span className="text-default-300">in Bozeman, MT</span>
             </footer>
           </div>
         </Providers>
